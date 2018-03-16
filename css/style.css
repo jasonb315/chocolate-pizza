@@ -48,8 +48,9 @@ header {
 .links {
   width:30%;
   height:100%;
-  background-color:green;
+  /* background-color:#008000; */
   float:right;
+  position: relative; top:55px;
 }
 
 .links li {
@@ -60,6 +61,11 @@ header {
 #infonav {
   margin-left:5px;
   padding-left: 5px;
+  /* background-color: aqua */
+}
+
+#socialnav {
+  /* background-color: blueviolet */
 }
 
 .postbanner h2 {
@@ -104,10 +110,16 @@ header {
 .instructions {
   text-indent:1.8em;
   font-family: 'IBM Plex Serif', serif;
-  color: rgb(80,80,80)
+  color: rgb(80,80,80);
+  font-size:1.12em;
+  line-height:25px;
 }
 
 .instructions p {
   padding-top:12.5px;
   padding-bottom:12.5px;
+}
+
+.strikethrough:checked + .strikeThis {
+  text-decoration: line-through
 }
