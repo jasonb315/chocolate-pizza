@@ -1,0 +1,54 @@
+body, html {
+ margin:auto;
+ display:block;
+ width:85%;
+}
+
+header {
+  height:140px;
+  overflow:hidden;
+  background-color: #cccccc;
+}
+
+#logocard {
+  width:50%;
+  height:100%;
+  background-color: red;
+}
+
+#logobox {
+  height:100%;
+  width:42px;
+  float:left;
+  background-color:blue;
+}
+#logo {
+  /* vertical-align: middle; */
+  position: relative; top:49px;
+  display: inline;
+}
+
+#logotext {
+  position: relative; left:5px; top:49px;
+  display:inline;
+}
+
+.links {
+  /* margin:20%; */
+  display:inline-block;
+  background-color:green;
+}
+
+/* #socialnav {
+
+}
+
+#infonav {
+
+} */
+
+/* .links ul {
+  float:right;
+
+} */
+
