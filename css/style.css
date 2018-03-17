@@ -1,0 +1,125 @@
+body, html {
+ margin:auto;
+ display:block;
+ width:85%;
+}
+
+header {
+  height:140px;
+  width:100%;
+  overflow:hidden;
+  /* background-color: #cccccc; */
+  display: inline-block;
+}
+
+#logocard {
+  width:30%;
+  height:100%;
+  /* background-color: red; */
+  float:left;
+}
+
+#logobox {
+  height:100%;
+  width:42px;
+  float:left;
+  /* background-color:blue; */
+}
+#logo {
+  /* vertical-align: middle; */
+  position: relative; top:49px;
+  display: inline;
+}
+
+#logotext {
+  position: relative; left:5px; top:49px;
+  display:inline;
+}
+#logotext h1 {
+  font-family: 'Yellowtail', cursive;
+  font-size:2.2em;
+}
+#logotext p {
+  font-family: 'Oswald', sans-serif;
+  font-size:.7em;
+}
+
+
+.links {
+  width:30%;
+  height:100%;
+  /* background-color:#008000; */
+  float:right;
+  position: relative; top:55px;
+}
+
+.links li {
+  float:right;
+  padding: 2px;
+}
+
+#infonav {
+  margin-left:5px;
+  padding-left: 5px;
+  /* background-color: aqua */
+}
+
+#socialnav {
+  /* background-color: blueviolet */
+}
+
+.postbanner h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight:bold;
+  font-size:2.6em;
+  margin-top:50px;
+}
+
+#timestampheader{
+  margin-top:.8em;
+  width:100%;
+  overflow:hidden;
+  /* background-color: #856666; */
+  display: inline-block;
+  font-size:.8em;
+  font-family: 'Oswald', sans-serif;
+  color: rgb(120,120,120)
+}
+
+#timestamp{
+  float:left;
+  width:40%;
+}
+
+#ipittytheprinta {
+  float:right;
+  width:20%;
+  text-align:right;
+}
+
+#print {
+  display:inline;
+}
+
+#heropic {
+  width:100%;
+  margin-top:25px;
+  margin-bottom:12.5px;
+}
+
+.instructions {
+  text-indent:1.8em;
+  font-family: 'IBM Plex Serif', serif;
+  color: rgb(80,80,80);
+  font-size:1.12em;
+  line-height:25px;
+}
+
+.instructions p {
+  padding-top:12.5px;
+  padding-bottom:12.5px;
+}
+
+.strikethrough:checked + .strikeThis {
+  text-decoration: line-through
+}
