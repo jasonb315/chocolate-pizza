@@ -123,3 +123,49 @@ header {
 .strikethrough:checked + .strikeThis {
   text-decoration: line-through
 }
+
+.ingredients {
+  width: 100%;
+}
+
+.parentimg {
+  width:100%;
+}
+
+#vanpic {
+  float:left;
+}
+
+#vantown {
+  margin-top:50px;
+}
+
+.van {
+  text-indent:1.8em;
+  font-family: 'IBM Plex Serif', serif;
+  color: rgb(80,80,80);
+  font-size:.9em;
+  line-height:25px;
+}
+
+#SRB {
+  float:right;
+}
+
+#footer {
+  height:200px;
+  width:100%;
+  overflow:hidden;
+  /* background-color: #cccccc; */
+  display: inline-block;
+  margin-top:50px;
+}
+
+#footlogo {
+  display:block;
+  margin:auto;
+}
+
+.foottext{
+  text-align: center;
+}
